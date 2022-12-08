@@ -1,0 +1,16 @@
+<form action = "" method = "post">
+    {% csrf_token %}
+
+    <p>Foto {{ form.Foto }}</p>
+
+    <p>Titulo {{ form.Titulo }}</p>
+
+    <p>Descripción {{ form.Descripción }}</p>
+
+    <p>Tags {{ form.Tags }}</p>
+
+    <p>URL_GIT {{ form.URL_GIT }}</p>
+
+
+    <input type="submit" value="ENVIAR">
+</form>
